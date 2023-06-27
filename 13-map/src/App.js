@@ -7,7 +7,7 @@ const texts = [
   'Click me',
   'Click me please',
   'Hit me',
-  'Press me'
+  'Press me',
 ];
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Counter count={count} />
       {texts.map((text, index) => {
-        return <Button text={text} onClick={incrementCount} key={index}/>;
+        return <Button text={text} onClick={incrementCount} key={index} />;
       })}
     </div>
   );
