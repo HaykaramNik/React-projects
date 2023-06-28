@@ -1,5 +1,6 @@
 function Wrapper(props) {
-  return <div style={{ backgroundColor: props.color }}>{props.children}</div>;
+  console.log(props.children);
+  return <div style={{ backgroundColor: props.color }}>{props.children[1]}{props.children[2]}</div>;
 }
 
 export default Wrapper;

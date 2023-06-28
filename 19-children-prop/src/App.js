@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <Wrapper color="lightblue">
         <h2>Text inside of the Wrapper</h2>
+        <h3>Text inside of the Wrapper</h3>
+        <h4>Text inside of the Wrapper</h4>
       </Wrapper>
     </div>
   );
